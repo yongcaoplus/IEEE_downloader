@@ -13,7 +13,7 @@
     <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
         <img src="https://raw.githubusercontent.com/superYong2020/images/master/license.svg" alt="version"/>
     </a>
-</left>
+</left>      
 
 
 
@@ -39,7 +39,7 @@
   <img src="https://raw.githubusercontent.com/superYong2020/images/master/ieee_website_step_1.png" width="600px">
   </div>
 
-* **step 2**
+* **step 2**    
   导出到txt文件，如下图所示。运行main_ui.py, 进入UI界面,配置论文保存文件夹和URL文件路径两个参数，点击“开始下载”，搞定！
   
   <div align=center>
@@ -47,8 +47,8 @@
   </div>
 
 ## 方法2
-* **step 1**
- * 进入IEEE官网[https://ieeexplore.ieee.org](https://ieeexplore.ieee.org/)，按照关键词搜索论文  
+* **step 1**     
+  * 进入IEEE官网[https://ieeexplore.ieee.org](https://ieeexplore.ieee.org/)，按照关键词搜索论文  
    
 * **step 2**
   * 按照同样的关键词在软件界面中配置，以及需要下载的页数，可以用英文逗号、破折号隔开，也可以用一个数字。eg. 2,3 或者 2-5 或者 2
