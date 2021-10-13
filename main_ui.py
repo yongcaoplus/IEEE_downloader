@@ -2,7 +2,7 @@
 import tkinter as tk
 import tkinter.font as tkFont
 from tkinter import messagebox
-
+import _thread
 from PIL import Image, ImageTk
 from download_paper_by_pageURL import organize_info_by_query
 from download_paper_by_URLfile import organize_info_by_txt
@@ -222,7 +222,7 @@ class App:
         self.root.overrideredirect(self.no_title)
         self.no_title = not self.no_title
 
-    def begin_download_1(self):
+    def download_1_thread(self):
         if show_begin_download("开始下载吗？"):
             save_dir = self.save_dir.get(0.0, tk.END).split("\n")[0].strip()
             url_txt_path = self.url_txt_path.get(0.0, tk.END).split("\n")[0].strip()
@@ -238,14 +238,20 @@ class App:
             if not status:
                 show_fail_window("URL文件未找到...")
             # 下载论文
-            succeed, paper_downloaded, already_exist = downLoad_paper(paper_info, show_bar=True)
+            succeed, paper_downloaded, already_exist = downLoad_paper(paper_info)
             if succeed:
                 info = "成功下载{}篇论文!".format(paper_downloaded+already_exist)
                 show_succeed_window(info)
             else:
                 show_fail_window("下载失败，请检查配置。")
 
-    def begin_download_2(self):
+    def begin_download_1(self):
+        try:
+            _thread.start_new_thread(self.download_1_thread, ())
+        except:
+            show_fail_window("Error: 无法启动线程")
+
+    def download_2_thread(self):
         if show_begin_download("开始下载吗？"):
             save_dir = self.save_dir.get(0.0, tk.END).split("\n")[0].strip()
             keywords = self.keyword.get(0.0, tk.END).split("\n")[0].strip()
@@ -271,6 +277,13 @@ class App:
                 show_succeed_window(info)
             else:
                 show_fail_window("下载失败，请检查配置。")
+
+
+    def begin_download_2(self):
+        try:
+            _thread.start_new_thread(self.download_2_thread, ())
+        except:
+            show_fail_window("Error: 无法启动线程")
 
     def close(self, *arg):
         if show_confirm("确认退出吗 ?"):
