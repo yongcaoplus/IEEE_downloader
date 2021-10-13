@@ -1,5 +1,22 @@
 # 写综述必备！自动批量下载IEEE的论文
 
+<left>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/superYong2020/images/master/ieee_repo_size.svg" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/superYong2020/images/master/ieee_languages.svg" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/superYong2020/images/master/ieee_release.svg" alt="version"/>
+    </a>
+    <a href="https://github.com/misitebao/template-multi-page-vue-ssr" target="_blank" rel="noopener noreferrer">
+        <img src="https://raw.githubusercontent.com/superYong2020/images/master/license.svg" alt="version"/>
+    </a>
+</left>
+
+
+
 > 如果领域内的大量论文需要下载，基于本工具实现半自动化，无需到IEEE网站手动一篇一篇下载论文啦，科研效率翻倍！
 
 如下，介绍两种方法实现批量下载,代码流程和详细介绍请参考博客。

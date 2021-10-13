@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e3d9fc5d-7eae-4b73-83f1-7ae8b066f7c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../EEGAttentionAnalysis/Data/rawAndAtt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EEGAttentionAnalysis/images/attention_score.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EEGAttentionAnalysis/images/pipeline.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EEGAttentionAnalysis/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PytorchTurial/0_basic_tensorOpe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PytorchTurial/1_datasets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PytorchTurial/2_training_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PytorchTurial/4_train_a_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PytorchTurial/5_visualize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aaai2022_result_plot/result_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aaai2022_result_plot/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aaai2022_result_plot/temp2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/add_text_to_gloss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/bert_ratio_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/db/nni.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/gloss_text_mixup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/oov_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/ph14_data_visual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/plot_diff_fix_bert_ratio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aslg_data_aug/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../auto_nlp_sl/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/bert_ratio_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/db/result_experi891011" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/read_data_from_sqlite.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/result_plot_experi_891011.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/search_space.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../bert-nmt-update-20-10/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/Dockerfile.ubuntu1804" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/build_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/create_container.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/project_name.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/push_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/remove_container.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/remove_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/docker/save_image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/example_data/test_data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/inference_model/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/inference_model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/inference_model/chinese_ner/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/inference_model/chinese_ner/bert_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/inference_model/predictor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/ner_infer_server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/src/base_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/src/inference_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/tests/ner_infer_client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/tests/run_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/utils/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/chinese_ner_service/utils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_extract_saas/run_server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_extract_saas/中文NER服务.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_info_extraction/dataset_tagger.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_info_extraction/html_parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_info_extraction/show_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/contract_info_extraction/utils/text_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/roformer-sim/data/test.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/roformer-sim/test/search_similar_sentence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/video_process/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/video_process/requirement.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/video_process/video_formatting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/video_process/video_formatting_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../deepfuzhi/video_process/wmv2mp4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local_plot/Joint_intent_slot/confusion_matrix_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local_plot/Joint_intent_slot/distribution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local_plot/Joint_intent_slot/result_visual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../local_plot/plot_curve.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/2019ccks_keyword.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/atis_snips_data_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/bert_alpha_plot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/ccks2019_medical.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/ccks2021_dataset_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/2019ccks_event_type_entity_extract_eval.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/2019ccks_event_type_entity_extract_train.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/2019ccks_medical/subtask1_training_part1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/2019ccks_medical/subtask1_training_part2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/all_train/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/all_train/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/all_train/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/dev/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/dev/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/dev/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/intent_label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/slot_label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/test/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/test/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/test/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/train/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/train/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/train/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/unlabel/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/unlabel/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/atis/unlabel/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/ccks_task1_train.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/out_info.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/all_train/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/all_train/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/all_train/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/dev/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/dev/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/dev/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/intent_label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/slot_label.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/test/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/test/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/test/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/train/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/train/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/train/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/unlabel/label" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/unlabel/seq.in" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/data/snips/unlabel/seq.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/english_dataset_formatter_mit_movie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/english_dataset_formatter_mit_restaurant.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/fenci_dataset_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/pos_dataset_formatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/reshape_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/result_plot_experi_891011.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/shorter_dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_slt/params.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../new_slt/pipeline_train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../paperDownloading/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_analysis/load_stmc_ret.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_analysis/read_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/add_text_to_gloss.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/aug_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/aug_remove_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/aug_rotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/aug_stmc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/aut_replace.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/gloss_text_mixup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/oov_analysis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/ph14_data_augmentation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/ph14_enhance/test.de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/ph14_enhance/valid.de" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/ph14_prompt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/remove_specific_notes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/result_prompt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/temp.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/upsampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ph14_data_aug/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../prepare_embedding/prepare_embed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../read_nmt_code/temp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../auto_nlp_sl/docker/build_infer_docker.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../auto_nlp_sl/docker/build_infer_docker.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ner_dataset_preprocess/test_english.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ner_dataset_preprocess/test_english.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1zRvaP5XWF8El57lPeDLZ97Bsuq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Development\IEEE_downloader\img" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main_ui" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="IEEE_downloader" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_ui.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_ui" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e3d9fc5d-7eae-4b73-83f1-7ae8b066f7c2" name="Default Changelist" comment="" />
+      <created>1634123777800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634123777800</updated>
+      <workItem from="1634123778966" duration="5193000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IEEE_downloader$main_ui.coverage" NAME="main_ui Coverage Results" MODIFIED="1634124741500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
