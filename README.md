@@ -40,7 +40,7 @@
   </div>
 
 * **step 2**    
-  导出到txt文件，如下图所示。运行main_ui.py, 进入UI界面,配置论文保存文件夹和URL文件路径两个参数，点击“开始下载”，搞定！
+    * 导出到txt文件，如下图所示。运行main_ui.py, 进入UI界面,配置论文保存文件夹和URL文件路径两个参数，点击“开始下载”，搞定！
   
   <div align=center>
   <img src="https://raw.githubusercontent.com/superYong2020/images/master/url_txt_example.png" width="600px">
