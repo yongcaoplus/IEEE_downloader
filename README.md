@@ -47,6 +47,8 @@
   </div>
 
 ## 方法2
+优点：可大批量下载论文
+缺点：不可在下载前筛选不需要的论文   
 * **step 1**     
   * 进入IEEE官网[https://ieeexplore.ieee.org](https://ieeexplore.ieee.org/)，按照关键词搜索论文  
    
@@ -70,6 +72,15 @@
 <div align=center>
 <img src="https://raw.githubusercontent.com/superYong2020/images/master/save_paper.png" width="500px">
 </div>
+
+## 搭配EndNote使用
+
+<div align=center>
+<img src="https://raw.githubusercontent.com/superYong2020/images/master/ieee_endnote.png" width="600px">
+</div>
+
+使用教程请参考博客：    
+[科研效率直线提升！如何一键下载会议论文？ACL 2020 论文代码批量下载 打包分享](https://blog.csdn.net/weixin_43955436/article/details/116696395?spm=1001.2014.3001.5501)
 
 ### Reference    
 本工具主要参考以下资料，感谢作者分享。    
