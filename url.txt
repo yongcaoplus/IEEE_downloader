@@ -1,0 +1,44 @@
+J. Bang, S. Han, K. Lee and G. G. Lee, "Open-domain personalized dialog system using user-interested topics in system responses," 2015 IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), Scottsdale, AZ, USA, 2015, pp. 771-776.
+doi: 10.1109/ASRU.2015.7404866
+keywords: {Databases;Data mining;Knowledge based systems;Knowledge management;Impedance matching;Computer science;Measurement;Chat system;chatbot;open-domain dialog;knowledge base;topic-based dialog},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7404866&isnumber=7404758
+
+Y. Osanai, E. Shimokawara and T. Yamaguchi, "Correlation Analysis of Template Generality and Output Evaluation in Dialogue Response Generation," 2018 Joint 10th International Conference on Soft Computing and Intelligent Systems (SCIS) and 19th International Symposium on Advanced Intelligent Systems (ISIS), Toyama, Japan, 2018, pp. 1133-1137.
+doi: 10.1109/SCIS-ISIS.2018.00178
+keywords: {Databases;Clothing;Dictionaries;Semantics;Intelligent systems;Maximum likelihood estimation;Grammar;Dialogue System;Evaluation;template generation},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8716192&isnumber=8716030
+
+J. Ohmura and M. Eskenazi, "Context-Aware Dialog Re-Ranking for Task-Oriented Dialog Systems," 2018 IEEE Spoken Language Technology Workshop (SLT), Athens, Greece, 2018, pp. 846-853.
+doi: 10.1109/SLT.2018.8639596
+keywords: {Task analysis;Training;History;Speech recognition;Predictive models;Stacking;Mathematical model;Task-oriented dialog systems;response selection;re-ranking;ensemble learning;speech recognition errors},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8639596&isnumber=8639030
+
+M. Gašić, D. Kim, P. Tsiakoulis and S. Young, "Distributed dialogue policies for multi-domain statistical dialogue management," 2015 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), South Brisbane, QLD, Australia, 2015, pp. 5371-5375.
+doi: 10.1109/ICASSP.2015.7178997
+keywords: {Training;Training data;Limiting;Databases;open-domain;multi-domain;dialogue systems;POMDP;Gaussian process},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7178997&isnumber=7177909
+
+G. D. Duplessis, A. Pauchet, N. Chaignaud and J. Kotowicz, "A Conventional Dialogue Model Based on Empirically Specified Dialogue Games," 2015 IEEE 27th International Conference on Tools with Artificial Intelligence (ICTAI), Vietri sul Mare, Italy, 2015, pp. 997-1004.
+doi: 10.1109/ICTAI.2015.143
+keywords: {Games;Context;Production;Semantics;Context modeling;Open source software;Coherence;Human-Machine Interaction;Dialogue Management;Dialogue Games},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7372240&isnumber=7372095
+
+T. Shen and X. Wang, "Multi-Domain Dialogue State Tracking with Hierarchical Task Graph," 2020 International Joint Conference on Neural Networks (IJCNN), Glasgow, UK, 2020, pp. 1-8.
+doi: 10.1109/IJCNN48605.2020.9206790
+keywords: {Task analysis;History;Ontologies;Context modeling;Generators;Fuses;Computational modeling;natural language processing;task-oriented dialogue systems;multi-domain dialogue state tracking;task graph},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9206790&isnumber=9206590
+
+J. Alexandersson et al., "Metalogue: A Multiperspective Multimodal Dialogue System with Metacognitive Abilities for Highly Adaptive and Flexible Dialogue Management," 2014 International Conference on Intelligent Environments, Shanghai, China, 2014, pp. 365-368.
+doi: 10.1109/IE.2014.67
+keywords: {Educational institutions;Computer architecture;Speech;Artificial intelligence;Natural languages;Context;Training;multi-modal dialogue;meta-cognition;systems architecture;natural language;human-computer interface},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6910479&isnumber=6910409
+
+P. Ma and C. Li, "Building context-related dialogue systems based on Chinese-Script-Dialogue Corpus," 2019 Chinese Control Conference (CCC), Guangzhou, China, 2019, pp. 8631-8636.
+doi: 10.23919/ChiCC.2019.8865554
+keywords: {Task analysis;Motion pictures;Feature extraction;Training;TV;Decoding;Dialogue Corpus;Transformer;Chatbot},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8865554&isnumber=8865119
+
+J. Hieronymus, G. Aist and J. Dowding, "Open Microphone Speech Understanding: Correct Discrimination of in Domain Speech," 2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings, Toulouse, France, 2006, pp. I-I.
+doi: 10.1109/ICASSP.2006.1659958
+keywords: {Speech;Microphones;Training data;System testing;Databases;Performance analysis;Space stations;Orbital robotics;Real time systems;Portable computers},
+URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1659958&isnumber=34757
