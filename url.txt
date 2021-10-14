@@ -22,23 +22,3 @@ G. D. Duplessis, A. Pauchet, N. Chaignaud and J. Kotowicz, "A Conventional Dialo
 doi: 10.1109/ICTAI.2015.143
 keywords: {Games;Context;Production;Semantics;Context modeling;Open source software;Coherence;Human-Machine Interaction;Dialogue Management;Dialogue Games},
 URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7372240&isnumber=7372095
-
-T. Shen and X. Wang, "Multi-Domain Dialogue State Tracking with Hierarchical Task Graph," 2020 International Joint Conference on Neural Networks (IJCNN), Glasgow, UK, 2020, pp. 1-8.
-doi: 10.1109/IJCNN48605.2020.9206790
-keywords: {Task analysis;History;Ontologies;Context modeling;Generators;Fuses;Computational modeling;natural language processing;task-oriented dialogue systems;multi-domain dialogue state tracking;task graph},
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9206790&isnumber=9206590
-
-J. Alexandersson et al., "Metalogue: A Multiperspective Multimodal Dialogue System with Metacognitive Abilities for Highly Adaptive and Flexible Dialogue Management," 2014 International Conference on Intelligent Environments, Shanghai, China, 2014, pp. 365-368.
-doi: 10.1109/IE.2014.67
-keywords: {Educational institutions;Computer architecture;Speech;Artificial intelligence;Natural languages;Context;Training;multi-modal dialogue;meta-cognition;systems architecture;natural language;human-computer interface},
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6910479&isnumber=6910409
-
-P. Ma and C. Li, "Building context-related dialogue systems based on Chinese-Script-Dialogue Corpus," 2019 Chinese Control Conference (CCC), Guangzhou, China, 2019, pp. 8631-8636.
-doi: 10.23919/ChiCC.2019.8865554
-keywords: {Task analysis;Motion pictures;Feature extraction;Training;TV;Decoding;Dialogue Corpus;Transformer;Chatbot},
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8865554&isnumber=8865119
-
-J. Hieronymus, G. Aist and J. Dowding, "Open Microphone Speech Understanding: Correct Discrimination of in Domain Speech," 2006 IEEE International Conference on Acoustics Speech and Signal Processing Proceedings, Toulouse, France, 2006, pp. I-I.
-doi: 10.1109/ICASSP.2006.1659958
-keywords: {Speech;Microphones;Training data;System testing;Databases;Performance analysis;Space stations;Orbital robotics;Real time systems;Portable computers},
-URL: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1659958&isnumber=34757

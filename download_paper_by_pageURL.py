@@ -7,9 +7,16 @@ import requests
 import os
 from utils import downLoad_paper
 import re
+import urllib.request
 
 
 def organize_info_by_query(queryText, pageNumber, save_dir, paper_name_with_year=None):
+    cookie = []
+    file = urllib.request.urlopen("https://ieeexplore.ieee.org", timeout=1).info()
+    for key, value in file.items():
+        if key == "Set-Cookie":
+            cookie.append(value)
+    cookie_valid = "; ".join(cookie)
     paper_info = {}
     count = 0
     for page in pageNumber:
@@ -17,6 +24,7 @@ def organize_info_by_query(queryText, pageNumber, save_dir, paper_name_with_year
             'Host': 'ieeexplore.ieee.org',
             'Content-Type': "application/json",
             'User-Agent': 'PostmanRuntime/7.28.1',
+            'Cookie': cookie_valid,
             'Accept': '*/*'}
         payload = {"queryText": queryText, "pageNumber": str(page), "returnFacets": ["ALL"],
                    "returnType": "SEARCH"}
@@ -40,8 +48,10 @@ def organize_info_by_query(queryText, pageNumber, save_dir, paper_name_with_year
 
 
 if __name__ == '__main__':
+    import utils
+    utils._init()
     queryText = "dialog system"
     pageNumber = [3]
     save_dir = "save"
-    paper_info = organize_info_by_query(queryText, pageNumber, save_dir, True)
+    _, paper_info = organize_info_by_query(queryText, pageNumber, save_dir, True)
     downLoad_paper(paper_info)

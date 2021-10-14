@@ -1,11 +1,15 @@
 # coding:utf-8
+import _thread
+import os
 import tkinter as tk
 import tkinter.font as tkFont
-from tkinter import messagebox
-import _thread
+from tkinter import messagebox, ttk
+
 from PIL import Image, ImageTk
-from download_paper_by_pageURL import organize_info_by_query
+
+import utils
 from download_paper_by_URLfile import organize_info_by_txt
+from download_paper_by_pageURL import organize_info_by_query
 from utils import downLoad_paper, center_window
 
 
@@ -84,9 +88,6 @@ def image_label(frame, img, width, height, keep_ratio=True):
     return lbl_image
 
 
-
-
-
 def space(n):
     s = " "
     r = ""
@@ -117,7 +118,7 @@ def check_page_valid(page):
                     if len(pages) != 2:
                         show_fail_window("下载页数范围输入错误")
                         return False, None
-                    page_comma.extend([item for item in range(int(pages[0].strip()), int(pages[1].strip())+1)])
+                    page_comma.extend([item for item in range(int(pages[0].strip()), int(pages[1].strip()) + 1)])
                 else:
                     page_comma.append(int(item.strip()))
 
@@ -257,19 +258,62 @@ class App:
             status, paper_info = organize_info_by_txt(save_dir, url_txt_path, paper_name_with_year=save_with_year)
             if not status:
                 show_fail_window("URL文件未找到...")
+                return
+            if self.all_downloaded(paper_info):
+                info = "{}篇论文已存在，无需下载!".format(len(paper_info))
+                show_succeed_window(info)
+                return
             # 下载论文
+            self.create_progress_bar(paper_info)  ## 创建progress bar窗口
+            try:
+                _thread.start_new_thread(self.refresh_window, ())
+            except:
+                show_fail_window("Error: 无法启动线程")
             succeed, paper_downloaded, already_exist = downLoad_paper(paper_info)
             if succeed:
-                info = "成功下载{}篇论文!".format(paper_downloaded+already_exist)
+                info = "成功下载{}篇论文！".format(paper_downloaded + already_exist)
+                if hasattr(self, 'pb_window'):
+                    self.pb_window.destroy()
                 show_succeed_window(info)
             else:
                 show_fail_window("下载失败，请检查配置。")
+
+    def create_progress_bar(self, paper_info):
+        if hasattr(self, 'pb_window'):
+            self.pb_window.destroy()
+        self.pb_window = tk.Toplevel()
+        self.pb_window.geometry("300x140+600+300")
+        self.pb_window.iconbitmap("img/root.ico")  # 窗体图标
+        self.pb_window.title("下载进度")
+        center_window(self.pb_window)
+        self.download_pb = ttk.Progressbar(self.pb_window, length=200, mode="determinate", orient=tk.HORIZONTAL)
+        self.download_pb.pack(padx=10, pady=20)
+        self.download_pb["value"] = 0
+        self.download_pb["maximum"] = len(paper_info)
+
+    def refresh_window(self):
+        if not hasattr(self, 'pb_window'):
+            return
+        if not hasattr(self, 'download_pb'):
+            return
+        while utils.get_value("progress_bar_num") < self.download_pb["maximum"]-1:
+            if self.pb_window and self.download_pb:
+                self.download_pb["value"] = utils.get_value("progress_bar_num")
+                self.pb_window.update()
+        if hasattr(self, 'pb_window'):
+            self.pb_window.destroy()
 
     def begin_download_1(self):
         try:
             _thread.start_new_thread(self.download_1_thread, ())
         except:
             show_fail_window("Error: 无法启动线程")
+
+    def all_downloaded(self, paperlist):
+        for key, value in paperlist.items():
+            if not os.path.exists(value['name']):
+                return False
+        return True
 
     def download_2_thread(self):
         if show_begin_download("开始下载吗？"):
@@ -290,14 +334,25 @@ class App:
             status, paper_info = organize_info_by_query(keywords, page_range, save_dir, save_with_year)
             if not status:
                 show_fail_window("URL解析失败...")
+
+            if self.all_downloaded(paper_info):
+                info = "{}篇论文已存在，无需下载!".format(len(paper_info))
+                show_succeed_window(info)
+                return
             # 下载论文
+            self.create_progress_bar(paper_info)  ## 创建progress bar窗口
+            try:
+                _thread.start_new_thread(self.refresh_window, ())
+            except:
+                show_fail_window("Error: 无法启动线程")
             succeed, paper_downloaded, already_exist = downLoad_paper(paper_info, show_bar=True)
             if succeed:
-                info = "成功下载{}篇论文!".format(paper_downloaded+already_exist)
+                info = "成功下载{}篇论文!".format(paper_downloaded + already_exist)
+                if hasattr(self, 'pb_window'):
+                    self.pb_window.destroy()
                 show_succeed_window(info)
             else:
                 show_fail_window("下载失败，请检查配置。")
-
 
     def begin_download_2(self):
         try:
@@ -311,5 +366,7 @@ class App:
 
 
 if __name__ == "__main__":
+    utils._init()
+    utils.set_value("progress_bar_num", 0)
     app = App()
     app.root.mainloop()
